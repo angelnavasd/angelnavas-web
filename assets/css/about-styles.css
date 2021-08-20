@@ -1,0 +1,375 @@
+/*** AJUSTES GENERALES ***/
+
+body {
+    background: #FCFCFC;
+    color: #4E4E4E;
+    font-size: 1rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+body p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 350;
+        line-height: 1.7em;
+        font-size: 18px;
+}
+
+/*** BARRA DE NAVEGACION ***/
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin:  0 auto;
+}
+
+.header{
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #FCFCFC;
+    font-weight: 530;
+    display: inline;
+
+}
+
+.header a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #191919;
+}
+
+.AN-logo img{
+    width: 5em;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display:  inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.change-language{
+    font-weight: 400;
+}
+
+.navigation ul li div a{
+    padding: 0.2em;
+}
+
+/* ESTILO HERO DE PAGINA DE ABOUT */
+
+.about-hero{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 6em;
+}
+
+.about-hero img{
+    width: 14em;
+    height: auto;
+    margin-right: 3em;
+}
+
+.about-hero p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+    color: #191919;
+}
+
+.about-hero p.quotation{
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+/*  ESTILOS DE ARTICULO  */
+
+
+.article{
+    width: 80%;
+    max-width: 850px;
+    margin:  auto;
+}
+
+.article h2{
+    font-family: 'Montserrat',sans-serif;
+    color: #191919;
+}
+
+
+.article-content img{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.article-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.article-content p, h2{
+    line-height: 2em;
+}
+
+.back-n-foward{
+    display: flex;
+    align-self: auto;
+    margin-top: 2em;
+    color: #191919;
+}
+
+.back-n-foward img,a{
+    margin: 0.2em;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+}
+
+
+
+/*  FINAL DE ESTILOS DE ARTICULO  */
+
+.article{
+    margin-top: 10em;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 800px){
+
+header{
+    margin-top: 0;
+    
+}
+    
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+    
+.navigation ul{
+    display: none;
+}
+    
+.navigation ul.show{
+    display: block;
+}
+    
+.navigation{
+    width: 100%;
+    margin-top: 0;
+
+}
+    
+.navigation ul li{
+    display:  block;
+}
+    
+.navigation ul li a{
+    display: block;
+    padding: 0.3rem;
+}
+    
+.AN-logo img{
+    width: 4.8em;
+    margin-left: 1em;
+}
+    
+.menu-icon img{
+    width: 1.5em;
+}
+
+.article{
+    margin-top: 7em;
+}
+    
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+}
+
+/*   FOOTER   */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 12em;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+@media only screen and (max-width: 540px){
+
+    /* NAVIGATION */
+    
+.header{
+    width: 93%;
+    margin: auto;
+}
+
+.about-hero{
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.about-hero img{
+    margin-right: 0;
+    margin-bottom: 3em;
+}
+
+
+.footer{
+    margin-top: 5em;
+}
+
+.article{
+    margin-top: 7em;
+}
+
+
+.article-content p, h2{
+    line-height: 1.5em;
+}
+
+
+
+}    
+
+@media only screen and (max-width: 395px){
+
+/* NAVIGATION */
+    
+.AN-logo img{
+    width: 3.5em;
+}
+    
+.menu-icon img{
+    width: 1.1em;
+}
+
+
+.article{
+    margin-top: 5em;
+}
+
+.article-content h2{
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+.about-hero{
+    font-size: 14px;
+}
+
+.article-content h2{
+    font-size: 16px;
+}
+
+.article-content{
+    font-size: 14px;
+}
+
+/* FOOTER SMALL SIZE*/
+
+.footer-icons img{
+    max-width: 12px;
+    width: 100%;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 5em;
+
+}
+
+}

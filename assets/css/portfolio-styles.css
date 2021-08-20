@@ -1,0 +1,667 @@
+/*** AJUSTES GENERALES ***/
+
+body {
+    background: #FCFCFC;
+    color: #4E4E4E;
+    font-size: 1rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+body p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 350;
+        line-height: 1.7em;
+        font-size: 18px;
+}
+
+/*** BARRA DE NAVEGACION ***/
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin:  0 auto;
+}
+
+
+.header{
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #FCFCFC;
+    font-weight: 530;
+    display: inline;
+
+}
+
+.header a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #191919;
+}
+
+.AN-logo img{
+    width: 5em;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display:  inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.change-language{
+    font-weight: 400;
+}
+
+.navigation ul li div a{
+    padding: 0.2em;
+}
+
+/* AGREGAR ACA ESTILOS PARA CABECERA DE PORTAFOLIO */
+
+.titulo-portafolio{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-portafolio img{
+    margin-right: 1em;
+}
+
+
+
+/* MAIN SECTION */
+.article-card-container{
+    width: 85%;
+    max-width: 720px;
+    margin: 10% 20%;
+}
+
+.article-card-container h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #878787;
+}
+
+
+/* TARJETA PARA LISTADO */
+
+.article-link{
+    text-decoration: none;
+    color: inherit
+}
+
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    padding: 1.5em;
+    display: flex;
+    margin-top: 2em;
+    box-shadow: 3px 3px 9px #E5E5E5;
+
+}
+
+
+/*  TEXTO DE LA TARJETA DE LISTADO*/
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding: -10px;
+    margin-right: 10px;
+    width: 630px;
+}
+
+.card-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 5px;
+    color: #191919;
+}
+
+.card-text span.date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #A8A6A6;
+    margin-bottom: 6px;
+}
+
+.card-text p{
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+    margin-right: 5px;
+}
+
+.card-text span.autor{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.8em;
+    color: #191919;
+}
+
+
+.card img{
+    width: 145px;
+    height: auto;
+}
+
+.back-item{
+    display: flex;
+    margin-top: 3.2em;
+    color: #191919;
+}
+
+.back-link{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.back-item span{
+    margin-left: 0.5em;
+}
+
+/* FOOTER */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px){
+
+header{
+    margin-top: 0;
+
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+
+.navigation ul{
+    display: none;
+}
+
+.navigation ul.show{
+    display: block;
+}
+
+.navigation{
+    width: 100%;
+    margin-top: 0;
+}
+
+.navigation ul li{
+    display:  block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.3rem;
+}
+
+.AN-logo img{
+    width: 4.8em;
+}
+
+.menu-icon img{
+    width: 1.5em;
+}
+
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/*  AGREGAR ACA ESTILOS DE CABECERA DE PORTFOLIO  */
+
+.titulo-portafolio{
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.titulo-portafolio img{
+    margin-top: 3.1em;
+}
+
+
+
+/* MAIN SECTION */
+.article-card-container{
+    width: 90%;
+    max-width: 720px;
+    margin:  auto;
+}
+
+.article-card-container h2{
+    margin-top: 4em;
+}
+
+
+/* TARJETA PARA LISTADO */
+
+.article-link{
+    text-decoration: none;
+    color: inherit
+}
+/*   FOOTER   */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 12em;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    padding: 1.2em;
+    display: flex;
+    margin-top: 3em;
+    box-shadow: 3px 3px 9px #E5E5E5;
+    max-width: 95%;
+    width: 740px;
+    margin: auto;
+}
+
+
+/*  TEXTO DE LA TARJETA DE LISTADO*/
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding: -10px;
+    margin-right: 10px;
+    width: 630px;
+}
+
+.card-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 0em;
+}
+
+.card-text span.date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #A8A6A6;
+    margin-bottom: 0;
+    line-height: 2em;
+}
+
+.card-text p{
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+    margin-right: 5px;
+}
+
+.card-text span.autor{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+
+.card img{
+    width: 120px;
+    height: 120px;
+}
+
+}
+
+@media only screen and (max-width: 540px){
+
+/* NAVIGATION */
+
+.header{
+    width: 93%;
+    margin: auto;
+}
+
+
+/* ESTILOS DE ENUNCIADO DE CABECERA */
+
+
+
+/* MAIN SECTION */
+
+.article-card-container{
+    display: block;
+    max-width: 85%;
+
+}
+
+.article-card-container h2{
+    margin-top: 3em;
+    font-size: 23px;
+}
+
+
+/* TARJETA PARA LISTADO */
+
+.article-link{
+    text-decoration: none;
+    color: inherit
+}
+
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    padding: 1.5em;
+    display: flex;
+    margin-top: 3em;
+    box-shadow: 3px 3px 9px #E5E5E5;
+    max-width: 90%;
+    width: 740px;
+    margin: auto;
+}
+
+
+/*  TEXTO DE LA TARJETA DE LISTADO*/
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5em;
+    margin-right: 10px;
+    width: 630px;
+    height: 50px;
+}
+
+.card-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.card-text span.date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #A8A6A6;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.card-text p{
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+    margin-right: 5px;
+    display: none;
+}
+
+.card-text span.autor{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    margin-top: -13px;
+}
+
+
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer{
+    margin-top: 30em;
+}
+
+}
+
+@media only screen and (max-width: 395px){
+
+/* NAVIGATION */
+
+.AN-logo img{
+    width: 3.5em;
+}
+
+.menu-icon img{
+    width: 1.1em;
+}
+
+/* HERO */
+
+.hero-container{
+    max-width: 95%;
+}
+
+
+.hero-text h1{
+    font-size: 20px;
+}
+
+.hero-text p{
+    font-size: 14px;
+}
+
+/* CABECERA*/
+
+.titulo-portafolio{
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+    font-size: 20px;
+}
+
+.titulo-portafolio img{
+    margin-top: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 0.8em;
+}
+
+
+/* MAIN SECTION */
+
+.article-card-container{
+    display: block;
+    max-width: 85%;
+
+}
+
+.article-card-container h2{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+
+/* TARJETA PARA LISTADO */
+
+.article-link{
+    text-decoration: none;
+    color: inherit
+}
+
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    margin-top: 3em;
+    box-shadow: 3px 3px 9px #E5E5E5;
+    max-width: 90%;
+    width: 740px;
+    margin: auto;
+}
+
+
+/*  TEXTO DE LA TARJETA DE LISTADO*/
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5em;
+    margin-right: 10px;
+    width: 630px;
+    height: 50px;
+}
+
+.card-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.card-text span.date{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #A8A6A6;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.card-text p{
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+    margin-right: 5px;
+    display: none;
+}
+
+.card-text span.autor{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 8px;
+    margin-bottom: 0;
+    margin-top: -13px;
+}
+
+
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
+.back-link{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+}
+.back-item{
+    display: flex;
+    align-items: center;
+}
+.back-item img{
+    width: 7px;
+    height: 7px;
+}
+
+/* FOOTER SMALL SIZE*/
+
+.footer-icons img{
+    max-width: 12px;
+    width: 100%;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 30em;
+
+}
+}

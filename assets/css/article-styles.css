@@ -1,0 +1,379 @@
+/*** AJUSTES GENERALES ***/
+
+body {
+    background: #FCFCFC;
+    color: #191919;
+    font-size: 1rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+body p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 350;
+        line-height: 1.7em;
+        font-size: 18px;
+}
+
+body h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*** BARRA DE NAVEGACION ***/
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin:  0 auto;
+}
+
+.header{
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #FCFCFC;
+    font-weight: 530;
+    display: inline;
+
+}
+
+.header a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #191919;
+}
+
+.AN-logo img{
+    width: 5em;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display:  inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.change-language{
+    font-weight: 400;
+}
+
+.navigation ul li div a{
+    padding: 0.2em;
+}
+
+/*  ESTILOS DE ARTICULO  */
+
+
+.article{
+    width: 80%;
+    max-width: 850px;
+    margin:  auto;
+}
+
+.article h1,h2{
+    font-family: 'Montserrat',sans-serif;
+    color: #191919;
+}
+
+.article h1{
+    line-height: 1.2em;
+}
+
+.article-date{
+    margin-bottom: -0.7em;
+    letter-spacing: 0.4em;
+    color: #A2A2A2;
+    font-weight: 400;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9em;
+}
+
+.article-title{
+    margin-bottom: -0.3em;
+}
+
+.article-author b{
+    font-size: 16px;
+}
+
+.article-author i{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.head-icons img{
+    display: inline-flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.article img.main-image{
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.article-content img{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.article-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.article-content p, h2{
+    line-height: 2em;
+}
+
+.back-n-foward{
+    display: flex;
+    align-self: auto;
+    margin-top: 2em;
+    color: #191919;
+}
+
+.back-n-foward img,a{
+    margin: 0.2em;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+}
+
+
+
+/*  FINAL DE ESTILOS DE ARTICULO  */
+
+.article{
+    margin-top: 10em;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 800px){
+
+header{
+    margin-top: 0;
+    
+}
+    
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+    
+.navigation ul{
+    display: none;
+}
+    
+.navigation ul.show{
+    display: block;
+}
+    
+.navigation{
+    width: 100%;
+    margin-top: 0;
+
+}
+    
+.navigation ul li{
+    display:  block;
+}
+    
+.navigation ul li a{
+    display: block;
+    padding: 0.3rem;
+}
+    
+.AN-logo img{
+    width: 4.8em;
+    margin-left: 1em;
+}
+    
+.menu-icon img{
+    width: 1.5em;
+}
+
+.article{
+    margin-top: 7em;
+}
+    
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+}
+
+/*   FOOTER   */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 12em;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+@media only screen and (max-width: 540px){
+
+    /* NAVIGATION */
+    
+.header{
+    width: 93%;
+    margin: auto;
+}
+
+.footer{
+    margin-top: 5em;
+}
+
+.article{
+    margin-top: 7em;
+}
+
+.article h1{
+    line-height: 1.2em;
+    font-size: 2em;
+}
+
+.article-content p, h2{
+    line-height: 1.5em;
+}
+
+
+
+}    
+
+@media only screen and (max-width: 395px){
+
+/* NAVIGATION */
+    
+.AN-logo img{
+    width: 3.5em;
+}
+    
+.menu-icon img{
+    width: 1.1em;
+}
+
+.article-date{
+    font-size: 0.7em;
+}
+.article h1{
+    line-height: 1.4em;
+    font-size: 1.4em;
+}
+
+.article{
+    margin-top: 5em;
+}
+
+.article-content h2{
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+/* FOOTER SMALL SIZE*/
+
+.footer-icons img{
+    max-width: 12px;
+    width: 100%;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 5em;
+
+}
+
+}

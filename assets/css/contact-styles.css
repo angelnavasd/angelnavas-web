@@ -1,0 +1,285 @@
+/*** AJUSTES GENERALES ***/
+
+body {
+    background: #FCFCFC;
+    color: #4E4E4E;
+    font-size: 1rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+body p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 350;
+        line-height: 1.7em;
+        font-size: 18px;
+}
+
+/*** BARRA DE NAVEGACION ***/
+
+.container{
+    width: 85%;
+    max-width: 950px;
+    margin:  0 auto;
+}
+
+
+.header{
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #FCFCFC;
+    font-weight: 530;
+    display: inline;
+
+}
+
+.header a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #191919;
+}
+
+.AN-logo img{
+    width: 5em;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display:  inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navigation ul li div{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.change-language{
+    font-weight: 400;
+}
+
+.navigation ul li div a{
+    padding: 0.2em;
+}
+
+/* AGREGAR ACA ESTILOS PARA CONTACTO */
+
+.contact-card{
+    margin-top: 12em;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-card p{
+    font-weight: 500;
+}
+
+.contact-card h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+
+.contact-card p{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.contact-email{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-text2{
+    font-size: 1em;
+}
+
+.contact-card img{
+    margin-right: 0.6em;
+}
+
+
+
+/* ESTILOS DE FOOTER */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px){
+
+    header{
+        margin-top: 0;
+    
+    }
+    
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navigation ul{
+        display: none;
+    }
+    
+    .navigation ul.show{
+        display: block;
+    }
+    
+    .navigation{
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .navigation ul li{
+        display:  block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.3rem;
+    }
+    
+    .AN-logo img{
+        width: 4.8em;
+    }
+    
+    .menu-icon img{
+        width: 1.5em;
+    }
+    
+    .navigation ul li div{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    /*   FOOTER   */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 12em;
+  }
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-icons img{
+    max-width: 17px;
+    width: 100%;
+    margin: -1em 0.5em;
+}
+
+.footer p{
+    color: black;
+}
+
+}
+
+@media only screen and (max-width: 540px){
+
+.header{
+    width: 93%;
+    margin: auto;
+}
+
+.footer{
+    margin-top: 30em;
+}
+
+    
+}
+
+@media only screen and (max-width: 395px){
+
+/* NAVIGATION */
+
+.AN-logo img{
+    width: 3.5em;
+}
+
+.menu-icon img{
+    width: 1.1em;
+}
+
+.contact-card p{
+    font-size: 16px;
+}
+
+.contact-card{
+    margin-top: 8em;
+}
+
+/*  FOOTER  */
+
+.footer-icons img{
+    max-width: 12px;
+    width: 100%;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.footer{
+    margin-top: 30em;
+
+}
+
+}
